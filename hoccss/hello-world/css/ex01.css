@@ -1,0 +1,29 @@
+/* *title {
+    color: red;
+}
+
+p {
+    color: blueviolet;
+}
+
+.h1 {
+    color: blanchedalmond;
+} */
+
+h1 {}
+
+.title1 {}
+
+#p {}
+
+.menu>li>a {
+    color: red;
+}
+
+h2#first.title {
+    color: red;
+}
+
+h3#last.title {
+    color: blueviolet;
+}

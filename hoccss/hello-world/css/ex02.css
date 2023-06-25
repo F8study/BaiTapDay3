@@ -1,0 +1,20 @@
+h2 ~ ul{
+    color: red;
+}
+
+h2 ~ div ul{
+    color: red;
+}
+
+
+
+
+
+h2 + h2 {
+    color: red;
+}
+
+.todos input:checked ~ span{
+    color: red;
+    text-decoration: line-through;
+}

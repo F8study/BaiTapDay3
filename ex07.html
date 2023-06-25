@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <label for="name">Họ tên</label>
+            <input type="text" name="name" placeholder="Họ tên" id="name">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Email" id="email">
+        </div>
+
+        <div>
+            <label for="password">Mật khẩu</label>
+            <input type="password" name="password" placeholder="Mật Khẩu" id="password">
+        </div>
+
+        <div>
+            <label for="age">Tuổi</label>
+            <input type="number" name="age" placeholder="Tuổi" id="age" min="18" max="50" step="0.1">
+        </div>
+
+        <div>
+            <label for="avatar">Avatar</label>
+            <input type="file" name="avatar" id="file">
+        </div>
+
+
+        <div>
+            <label>Tuổi</label>
+            <label> <input type="checkbox" name="source" value="0"> dưới 18 </label>
+            <label> <input type="checkbox" name="source" value="1" /> trên 50 </label>
+            <label> <input type="checkbox" name="source" value="2" /> dưới 100</label>
+        </div>
+
+        <div>
+            <label for="message">Tin nhắn</label>
+            <textarea name="message" placeholder="Tin nhắn..." id="message" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <label for="provinces">Tỉnh/Thành phố</label>
+            <select name="provinces" id="provinces">
+                <option value="Hà Nội">Hà Nội</option>
+                <option value="Nha Trang">Nha Trang</option>
+                <option value="Đông Triều">Đông Triều</option>
+                <option value="Quảng Ngãi">Quảng Ngãi</option>
+                <option value="Thái BÌnh">Thái BÌnh</option>
+                <option value="Hạ Long">Hạ Long</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="provinces">Tỉnh/Thành Phố</label>
+            <select name="provinces" id="provinces">
+                <optgroup label="Miền Bắc">
+                    <option value="Hà Nội">Hà Nội</option>
+                    <option value="Phú Thọ">Phú Thọ</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <div>
+            <button type="button">button</button>
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+        </div>
+
+        <button>đăng ký</button>
+    </form>
+</body>
+
+</html>
